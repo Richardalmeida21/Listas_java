@@ -13,5 +13,9 @@ public class Lists {
         cursos.add(curso3);
 
         System.out.println(cursos);
+
+        cursos.forEach(curso -> {
+            System.out.println("Curso " + curso);
+        });
     }
 }
